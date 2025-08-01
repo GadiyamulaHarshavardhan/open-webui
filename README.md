@@ -47,7 +47,8 @@ bash Miniconda3-latest-Linux-x86_64.sh
 ```bash
 source ~/.bashrc
 ```
-
+command to deactivate conda in terimal perimentaly:
+conda config --set auto_activate_base False
 ---
 
 ### 🔧 1.3. Install Node.js (via nvm)
