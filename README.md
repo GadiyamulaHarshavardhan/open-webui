@@ -144,6 +144,10 @@ In **VS Code**:
 
 ```bash
 cd ~/open-webui/backend
+
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
+
 conda create --name open-webui python=3.11 -y
 conda activate open-webui
 ```
